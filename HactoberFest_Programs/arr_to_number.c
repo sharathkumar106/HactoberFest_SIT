@@ -4,6 +4,7 @@
 int main(){
 	int i,dig,number=0;
 	//Read a number to complete the program.
+	scanf("%d",&dig);
 	int arr[dig];
 	for(i=0;i<dig;i++){
 		printf("\nEnter %dth digit: ",i+1);
