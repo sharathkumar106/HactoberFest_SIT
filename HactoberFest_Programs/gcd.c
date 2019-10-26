@@ -1,6 +1,12 @@
 #include<stdio.h>
 int gcd(int a,int b){
-	//Write code here
+    int result=1;
+    for(i=1; i <= a && i <= b; ++i)
+    {
+        if(a%i==0 && b%i==0)
+            result=i;
+    }
+    return result;
 }
 int main(){
 	int num1,num2,res=0;
