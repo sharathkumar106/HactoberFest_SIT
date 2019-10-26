@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+#include<string.h>
+void main(){
 	char text[200],new_str[200];
 	int i=0,j=0,pos=0,num=0;
 	printf("\nEnter a string: ");
@@ -9,14 +10,12 @@ int main(){
 	printf("\nEnter the no. of characters to delete: ");
 	scanf("%d",&num);
 	while(text[i]!=NULL){
-		/*
-		Write the code to delete num no. of characters from position pos in string text.
-		*/
-		new_str[j++]=text[i++];
-		
+	  if ((num+pos-1) <= strlen(text))
+           {
+    		strcpy(&text[pos-1],&text[num+pos-1]);
+   	   }
+	new_str[j++]=text[i++];	
 	}
-	new_str[j]=NULL;
 	printf("\nThe new string is: ");
 	puts(new_str);
-	return 0;
 }
