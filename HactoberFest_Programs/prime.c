@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main(){
 	int i,num,flag=0,count=0,start,end;
-	printf("\nEnter starting number: ");
+	printf("Enter starting number: ");
 	scanf("%d",&start);
 	printf("\nEnter ending number: ");
 	scanf("%d",&end);
@@ -26,6 +26,5 @@ int main(){
 		
 	}
 	printf("\nTotal number of primes is :%d\n",count);
-
 	return 0;
 }
