@@ -14,7 +14,7 @@ int main(){
         if((j+1)%3!=0)
             printf(",");
     }
-    printf("\n");
+    printf("\n ");
    }
    printf("%d",numArr[9]);
 
