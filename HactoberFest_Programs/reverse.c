@@ -3,8 +3,6 @@
 
 int main(){
 	char str[50];
-	do{
-		
 	printf("\nEnter a string: ");
 	gets(str);
         // Start from leftmost and rightmost corners of str 
