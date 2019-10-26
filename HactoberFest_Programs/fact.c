@@ -10,6 +10,6 @@ int main(){
 	printf("\nEnter the number: ");
 	scanf("%d",&num);
 	int res=fact(num);
-	printf("\nFactorial of %d is : %d\n",num,res);
+	printf("\nFactorial of %d is: %d\n",num,res);
 	return 0;
 }
