@@ -17,7 +17,7 @@ int main(){
 		}
 	}
 	if(flag==0){
-		printf("No uplicates found\n");
+		printf("No duplicates found\n");
 	}
 	
 	
