@@ -1,15 +1,15 @@
 #include<stdio.h>
-int fact(int num){
-	if(num==1)
-		return 1;
-	else
-		return num* fact(num-1);
-}
-int main(){
-	int num;
-	printf("\nEnter the number: ");
-	scanf("%d",&num);
-	int res=fact(num);
-	printf("\nFactorial of %d is : %d\n",num,res);
-	return 0;
+int main()
+{
+  int c, n, fact = 1;
+ 
+  printf("Enter a number to calculate its factorial\n");
+  scanf("%d", &n);
+ 
+  for (c = 1; c <= n; c++)
+    fact = fact * c;
+ 
+  printf("Factorial of %d = %d\n", n, fact);
+ 
+  return 0;
 }
